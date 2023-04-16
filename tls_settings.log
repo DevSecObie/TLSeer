@@ -4907,3 +4907,16 @@ INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:52] "POST / HTTP/1.1" 200 -
 ERROR:root:Error checking OCSP Stapling for <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('10.5.0.2', 55067), raddr=('142.250.217.78', 443)>: getaddrinfo() argument 1 must be string or None
 INFO:root:Domain: youtube.com, TLS Version: TLSv1.2, Cipher Suite: ECDHE-ECDSA-CHACHA20-POLY1305, HSTS: True, OCSP Stapling: False, Certificate Transparency: True, Certificate Expiration: 2023-06-20 16:47:32
 INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:35:01] "POST / HTTP/1.1" 200 -
+ERROR:root:Error checking OCSP Stapling for <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('10.5.0.2', 55209), raddr=('142.250.217.78', 443)>: getaddrinfo() argument 1 must be string or None
+INFO:root:Domain: youtube.com, TLS Version: TLSv1.2, Cipher Suite: ECDHE-ECDSA-CHACHA20-POLY1305, HSTS: True, OCSP Stapling: False, Certificate Transparency: True, Certificate Expiration: 2023-06-20 16:47:32
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:37:54] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:37:56] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:38:00] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:15] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:15] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:22] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:27] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:28] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:40:46] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:42:09] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:42:10] "GET /bulk_check HTTP/1.1" 200 -
