@@ -64,7 +64,7 @@ def get_certificate_expiration(cert):
 results = []
 
 @app.route('/', methods=['GET', 'POST'])
-def app():
+def tls():
     if request.method == 'POST':
         action = request.form.get('action')
         if action == 'submit':
@@ -102,16 +102,16 @@ def app():
             domain = request.form.get('domain')
             results[:] = [result for result in results if result['domain'] != domain]
 
-    return render_template('app.html', results=results)
+    return render_template('index.html', results=results)
 
 @app.route('/documentation')
 def documentation():
     return render_template('documentation.html')
 
 
-@app.route('/app')
+@app.route('/home')
 def home():
-    return render_template('app.html')
+    return render_template('home.html')
 
 
 @app.route('/bulk_check', methods=['GET', 'POST'])

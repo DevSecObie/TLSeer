@@ -4425,3 +4425,485 @@ INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a
 INFO:werkzeug:[33mPress CTRL+C to quit[0m
 INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:17:13] "GET /index HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:17:15] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:21:53] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:40] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:47] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:49] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:38:52] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:20] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:22] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:37] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:39] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:43:57] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:44:03] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:44:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:44:07] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:44:10] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:44:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:46:00] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:46:06] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:46:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:46:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:50:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:51:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:52:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:52:44] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:52:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:52:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:52:59] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:53:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:53:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:54:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:54:33] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:54:42] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:55:36] "[33mGET /app HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:55:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:55:53] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:55:57] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:56:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:56:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:56:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:56:52] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:57:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 10:57:47] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:01:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:01:40] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:02:10] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:40] "GET /index HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:41] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:46] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:51] "GET /bulk_check HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:04:54] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:05:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:05:13] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:05:45] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:05:47] "GET /documentation HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:05:50] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:06:32] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:06:34] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:06:38] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:06:42] "GET /bulk_check HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:06:45] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:12:54] "GET /bulk_check HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in index
+    return render_template('app.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: app.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:13:04] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:13:12] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:13:16] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:13:18] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:13:24] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:16:36] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:16:38] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:16:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:16:55] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:16:57] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:17:02] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:17:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:18:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:01] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:07] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:10] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:12] "[33mGET /tls HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:19] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:19:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:20:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:20:52] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:04] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:11] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:13] "GET /bulk_check HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in tls
+    return render_template('tls.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: tls.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:39] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:43] "GET /documentation HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in tls
+    return render_template('tls.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: tls.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:21:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:22:28] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:22:31] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:23:43] "GET /documentation HTTP/1.1" 200 -
+ERROR:tlseer:Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 2528, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1825, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1823, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/oisrae1/Desktop/tlseer/tlseer.py", line 105, in tls
+    return render_template('tls.html', results=results)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 146, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 62, in get_source
+    return self._get_source_fast(environment, template)
+  File "/Users/oisrae1/Library/Python/3.9/lib/python/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: tls.html
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:23:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:10] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:12] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:17] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:23] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:27] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:31] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:33] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:28:35] "[33mGET /home HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:29:30] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:29:33] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:29:46] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:29:49] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:29:50] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:30:04] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:30:06] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:30:12] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:30:17] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:31:58] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:32:00] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:32:06] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:32:09] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:32:11] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:33:20] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:33:24] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:33:26] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:33:28] "[33mGET /index HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:16] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:19] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:21] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:23] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:24] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:26] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:28] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:31] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:32] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:35] "GET /bulk_check HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:38] "GET /documentation HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:44] "GET / HTTP/1.1" 200 -
+ERROR:root:Error checking OCSP Stapling for <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('10.5.0.2', 55063), raddr=('142.251.211.238', 443)>: getaddrinfo() argument 1 must be string or None
+INFO:root:Domain: google.com, TLS Version: TLSv1.2, Cipher Suite: ECDHE-ECDSA-CHACHA20-POLY1305, HSTS: False, OCSP Stapling: False, Certificate Transparency: True, Certificate Expiration: 2023-06-20 16:47:32
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:34:52] "POST / HTTP/1.1" 200 -
+ERROR:root:Error checking OCSP Stapling for <ssl.SSLSocket fd=9, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('10.5.0.2', 55067), raddr=('142.250.217.78', 443)>: getaddrinfo() argument 1 must be string or None
+INFO:root:Domain: youtube.com, TLS Version: TLSv1.2, Cipher Suite: ECDHE-ECDSA-CHACHA20-POLY1305, HSTS: True, OCSP Stapling: False, Certificate Transparency: True, Certificate Expiration: 2023-06-20 16:47:32
+INFO:werkzeug:127.0.0.1 - - [16/Apr/2023 11:35:01] "POST / HTTP/1.1" 200 -
