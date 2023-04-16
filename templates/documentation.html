@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block extra_head %}
+<!-- Custom CSS -->
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .finding {
+        margin-bottom: 1.5rem;
+    }
+
+    .finding-title {
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="mb-4">Documentation</h1>
+    <h2>Findings</h2>
+    <dl>
+        <dt>TLS Version</dt>
+        <dd>The TLS (Transport Layer Security) protocol is used to encrypt and authenticate data transmitted over a network. Different versions of TLS provide varying levels of security, with newer versions offering stronger encryption and protection. Ideally, servers should use TLS 1.2 or TLS 1.3, as older versions (such as SSL 3.0, TLS 1.0, and TLS 1.1) are considered less secure.</dd>
+
+        <dt>Cipher Suite</dt>
+        <dd>A cipher suite is a combination of encryption algorithms used to secure network connections through TLS. Cipher suites define key exchange, authentication, encryption, and message authentication code (MAC) algorithms. A strong cipher suite provides robust encryption and secure authentication, ensuring the confidentiality and integrity of transmitted data.</dd>
+
+        <dt>HSTS (HTTP Strict Transport Security)</dt>
+        <dd>HSTS is a security policy that ensures all communication between a web server and a browser is carried out using HTTPS (secure HTTP). HSTS prevents downgrade attacks and helps protect against man-in-the-middle attacks by forcing browsers to communicate only over HTTPS. If HSTS is enabled, it's an indication of good security practice.</dd>
+
+        <dt>OCSP Stapling</dt>
+        <dd>The Online Certificate Status Protocol (OCSP) is used to check the revocation status of an SSL/TLS certificate. OCSP Stapling allows the server to include a cached OCSP response from the certificate authority (CA) in the TLS handshake, reducing the need for clients to contact the CA directly. This improves the performance and privacy of SSL/TLS connections.</dd>
+
+        <dt>Certificate Transparency</dt>
+        <dd>Certificate Transparency (CT) is an open framework for monitoring and auditing the issuance of SSL/TLS certificates by Certificate Authorities (CAs). CT helps detect misissued certificates and improve the overall trustworthiness of the public key infrastructure. A website that supports CT demonstrates a commitment to transparency and security.</dd>
+
+        <dt>Certificate Expiration</dt>
+        <dd>SSL/TLS certificates have a fixed validity period, after which they expire and must be replaced. An expired certificate can cause browsers to display security warnings, potentially affecting user trust and website traffic. Regularly monitoring certificate expiration dates and renewing certificates before they expire is an essential security practice.</dd>
+    </dl>
+    {% for finding in findings %}
+    <div class="finding">
+        <p class="finding-title">{{ finding.title }}</p>
+        <p>{{ finding.description }}</p>
+    </div>
+    {% endfor %}
+    <a href="/" class="btn btn-primary mt-3">Back to OBiE's TLS Checker</a>
+</div>
+{% endblock %}

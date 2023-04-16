@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+    .bg-dark .table thead th,
+    .bg-dark .table tbody td {
+        color: #FFFFFF;
+    }
+</style>
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h2 class="mb-4 text-center">Bulk Domain Check</h2>
+        
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form action="{{ url_for('bulk_check') }}" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload a file with domains:</label>
+                <div class="custom-file">
+                    <input type="file" name="file" class="custom-file-input" id="file" accept=".csv,.txt" required>
+                    <label class="custom-file-label" for="file">Choose file...</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="file_type">Select file type:</label>
+                <select class="form-control" id="file_type" name="file_type">
+                    <option value="csv">CSV</option>
+                    <option value="txt">Plain Text</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+
+        {% if session.get('bulk_check_results') %}
+            <hr>
+            <h2>Results</h2>
+            <p>Download the results as a CSV file: <a href="{{ url_for('download_results') }}">Download</a></p>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Domain</th>
+                        <th>TLS Version</th>
+                        <th>Cipher Suite</th>
+                        <th>Error</th>
+                        <th>HSTS</th>
+                        <th>OCSP Stapling</th>
+                        <th>Certificate Transparency</th>
+                        <th>Certificate Expiration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for result in session.get('bulk_check_results') %}
+                        <tr>
+                            <td>{{ result.get('domain') }}</td>
+                            <td>{{ result.get('tls_version') }}</td>
+                            <td>{{ result.get('cipher_suite') }}</td>
+                            <td>{{ result.get('error') }}</td>
+                            <td>{{ result.get('hsts') }}</td>
+                            <td>{{ result.get('ocsp_stapling') }}</td>
+                            <td>{{ result.get('cert_transparency') }}</td>
+                            <td>{{ result.get('cert_expiration') }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
+
