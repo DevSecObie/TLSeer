@@ -243,7 +243,7 @@ def download_results():
 
 @app.errorhandler(Exception)
 def handle_exception(e):
-    tb = traceback.format_exception(etype=type(e), value=e, tb=e.__traceback__)
+    tb = traceback.format_exception(type(e), e, e.__traceback__)
     tb_str = ''.join(tb)
     app.logger.error("Exception occurred: %s", tb_str)
     return "An unexpected error occurred.", 500
