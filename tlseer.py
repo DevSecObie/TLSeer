@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, Response, make_response, redirect, url_for, flash, session, jsonify
 from dotenv import load_dotenv
+from flask_migrate import Migrate
 import logging
 import traceback
 import re
@@ -16,6 +17,8 @@ from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from werkzeug.utils import secure_filename
 from models import db, DomainCheckResult 
+import pymysql
+pymysql.install_as_MySQLdb()
 
 app = Flask(__name__)
 
@@ -40,6 +43,9 @@ else:
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
+
+migrate = Migrate(app, db)
+
 
 
 @app.route('/db') 
