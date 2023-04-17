@@ -59,8 +59,7 @@
                         <tr>
                             <td>{{ result.get('domain') }}</td>
                             <td>{{ result.get('tls_version') }}</td>
-                            <td><a href="https://ciphersuite.info/{{ result.get('cipher_suite') }}" target="_blank">{{ result.get('cipher_suite') }}</a></td>
-                            <td>{{ result.get('error') }}</td>
+                            <td><a href="https://ciphersuite.info/search/?q={{ result.cipher_suite }}" target="_blank">{{ result.cipher_suite }}</a></td>                            <td>{{ result.get('error') }}</td>
                             <td>{{ result.get('hsts') }}</td>
                             <td>{{ result.get('ocsp_stapling') }}</td>
                             <td>{{ result.get('cert_transparency') }}</td>
