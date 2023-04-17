@@ -25,7 +25,10 @@ secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
 # Ensure the correct driver is used for MySQL
-app.config['SQLALCHEMY_DATABASE_URI'] = connection_string.replace("mysql://", "mysql+pymysql://")
+if connection_string:
+    app.config['SQLALCHEMY_DATABASE_URI'] = connection_string.replace("mysql://", "mysql+pymysql://")
+else:
+    raise ValueError("The JAWSDB_URL environment variable is not set.")
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
