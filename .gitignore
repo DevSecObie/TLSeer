@@ -1,2 +1,8 @@
 tls_settings.log
-tls_settings.log
+app.config
+runtime.txt
+domains.txt
+alembic.ini
+script.py.mako
+local_db.sqlite
+.env

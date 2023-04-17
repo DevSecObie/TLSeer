@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, Response, make_response, redirect, url_for, flash, session, jsonify
+from dotenv import load_dotenv
 import logging
 import re
 import ssl
@@ -13,11 +14,34 @@ from datetime import datetime
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from werkzeug.utils import secure_filename
+from models import db, DomainCheckResult 
 
+load_dotenv()
+
+connection_string = os.getenv('DB_CONNECTION')
 
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
+app.config['SQLALCHEMY_DATABASE_URI'] = connection_string
+
+# Set up the database connection and bind the `db` object to your Flask app
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db.init_app(app)
+
+@app.route('/db')
+def database():  # Change this function name to 'database' or another appropriate name
+    # Add a new record
+    result = DomainCheckResult(domain='example.com', tls_version='TLSv1.3', cipher_suite='ECDHE-RSA-AES128-GCM-SHA256')
+    db.session.add(result)
+    db.session.commit()
+
+    # Query all records
+    results = DomainCheckResult.query.all()
+    
+    # Use the db.html template to render the results
+    return render_template('db.html', results=results)
+
 
 # logging
 logging.basicConfig(filename='tls_settings.log', level=logging.INFO)

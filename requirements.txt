@@ -25,4 +25,5 @@ zipp==3.15.0
 sqlalchemy==2.0.9
 sqlalchemy-utils==0.37.9
 python-dotenv==1.0.0
+psycopg2==23.0.1
 
