@@ -23,11 +23,13 @@ connection_string = os.environ.get('SQLALCHEMY_DATABASE_URI')
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
-app.config['SQLALCHEMY_DATABASE_URI'] = connection_string
 
-# Set up the database connection and bind the `db` object to your Flask app
+# Ensure the correct driver is used for MySQL
+app.config['SQLALCHEMY_DATABASE_URI'] = connection_string.replace("mysql://", "mysql+pymysql://")
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
+
 
 @app.route('/db') 
 def database():  # Change this function name to 'database' or another appropriate name
