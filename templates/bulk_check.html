@@ -41,33 +41,74 @@
             <hr>
             <h2>Results</h2>
             <p>Download the results as a CSV file: <a href="{{ url_for('download_results') }}">Download</a></p>
-            <table class="table table-bordered" style="margin: 0 auto;">
-                <thead>
-                    <tr>
-                        <th>Domain</th>
-                        <th>TLS Version</th>
-                        <th>Cipher Suite</th>
-                        <th>Error</th>
-                        <th>HSTS</th>
-                        <th>OCSP Stapling</th>
-                        <th>Certificate Transparency</th>
-                        <th>Certificate Expiration</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for result in session.get('bulk_check_results') %}
+            <div style="text-align: center;">
+                <style>
+                    .centered-table {
+                        margin: 0 auto;
+                    }
+                </style>
+                
+                <table class="table table-bordered centered-table">
+                    <thead>
+                        <tr>
+                            <th>Domain</th>
+                            <th>TLS Version</th>
+                            <th>Cipher Suite</th>
+                            <th>Error</th>
+                            <th>HSTS</th>
+                            <th>OCSP Stapling</th>
+                            <th>Certificate Transparency</th>
+                            <th>Certificate Expiration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for result in session.get('bulk_check_results') %}
                         <tr>
                             <td>{{ result.get('domain') }}</td>
                             <td>{{ result.get('tls_version') }}</td>
-                            <td><a href="https://ciphersuite.info/search/?q={{ result.cipher_suite }}" target="_blank">{{ result.cipher_suite }}</a></td>                            <td>{{ result.get('error') }}</td>
+                            <td><a href="https://ciphersuite.info/search/?q={{ result.cipher_suite }}" target="_blank">{{ result.cipher_suite }}</a></td>
+                            <td>{{ result.get('error') }}</td>
                             <td>{{ result.get('hsts') }}</td>
                             <td>{{ result.get('ocsp_stapling') }}</td>
                             <td>{{ result.get('cert_transparency') }}</td>
                             <td>{{ result.get('cert_expiration') }}</td>
                         </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
+                        {% endfor %}
+                    </tbody>
+                </table><style>
+    .centered-table {
+        margin: 0 auto;
+    }
+</style>
+
+<table class="table table-bordered centered-table">
+    <thead>
+        <tr>
+            <th>Domain</th>
+            <th>TLS Version</th>
+            <th>Cipher Suite</th>
+            <th>Error</th>
+            <th>HSTS</th>
+            <th>OCSP Stapling</th>
+            <th>Certificate Transparency</th>
+            <th>Certificate Expiration</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for result in session.get('bulk_check_results') %}
+        <tr>
+            <td>{{ result.get('domain') }}</td>
+            <td>{{ result.get('tls_version') }}</td>
+            <td><a href="https://ciphersuite.info/search/?q={{ result.cipher_suite }}" target="_blank">{{ result.cipher_suite }}</a></td>
+            <td>{{ result.get('error') }}</td>
+            <td>{{ result.get('hsts') }}</td>
+            <td>{{ result.get('ocsp_stapling') }}</td>
+            <td>{{ result.get('cert_transparency') }}</td>
+            <td>{{ result.get('cert_expiration') }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
         {% endif %}
     </div>
 </div>
