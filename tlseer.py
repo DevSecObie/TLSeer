@@ -18,7 +18,7 @@ from models import db, DomainCheckResult
 
 load_dotenv()
 
-connection_string = os.getenv('DB_CONNECTION')
+connection_string = os.environ.get('SQLALCHEMY_DATABASE_URI')
 
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
@@ -29,7 +29,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = connection_string
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db.init_app(app)
 
-@app.route('/db')
+@app.route('/db') 
 def database():  # Change this function name to 'database' or another appropriate name
     # Add a new record
     result = DomainCheckResult(domain='example.com', tls_version='TLSv1.3', cipher_suite='ECDHE-RSA-AES128-GCM-SHA256')
@@ -233,3 +233,4 @@ if __name__ == "__main__":
     app.run() 
     
     
+##
