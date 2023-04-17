@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template, Response, make_response, redirect, url_for, flash, session, jsonify
 from dotenv import load_dotenv
 import logging
+import traceback
 import re
 import ssl
 import socket
@@ -239,6 +240,13 @@ def download_results():
     output.headers["Content-Disposition"] = "attachment; filename=results.csv"
     output.headers["Content-type"] = "text/csv"
     return output
+
+@app.errorhandler(Exception)
+def handle_exception(e):
+    tb = traceback.format_exception(etype=type(e), value=e, tb=e.__traceback__)
+    tb_str = ''.join(tb)
+    app.logger.error("Exception occurred: %s", tb_str)
+    return "An unexpected error occurred.", 500
 
 
 if __name__ == "__main__":
