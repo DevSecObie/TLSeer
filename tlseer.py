@@ -18,7 +18,12 @@ from models import db, DomainCheckResult
 
 load_dotenv()
 
-connection_string = os.environ.get('JAWSDB_URL')
+connection_string = os.environ.get('JAWSDB_URL') or os.environ.get('SQLALCHEMY_DATABASE_URI')
+
+if connection_string:
+    app.config['SQLALCHEMY_DATABASE_URI'] = connection_string.replace("mysql://", "mysql+pymysql://")
+else:
+    raise ValueError("No database URL provided. Please set the 'JAWSDB_URL' or 'SQLALCHEMY_DATABASE_URI' environment variable.")
 
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
