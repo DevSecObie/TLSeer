@@ -16,6 +16,8 @@ from cryptography.hazmat.backends import default_backend
 from werkzeug.utils import secure_filename
 from models import db, DomainCheckResult 
 
+app = Flask(__name__)
+
 load_dotenv()
 
 connection_string = os.environ.get('JAWSDB_URL') or os.environ.get('SQLALCHEMY_DATABASE_URI')
@@ -25,7 +27,7 @@ if connection_string:
 else:
     raise ValueError("No database URL provided. Please set the 'JAWSDB_URL' or 'SQLALCHEMY_DATABASE_URI' environment variable.")
 
-app = Flask(__name__)
+
 secret_key = secrets.token_hex(16)
 app.config['SECRET_KEY'] = secret_key
 
