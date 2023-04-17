@@ -102,7 +102,8 @@ def check_certificate_transparency(sock):
     return ssl.OP_NO_TLSv1_3 in sock.context.options
 
 def get_certificate_expiration(cert):
-    return cert.not_valid_after
+    expiration = cert.not_valid_after
+    return expiration.replace(tzinfo=None)
 
 results = []
 

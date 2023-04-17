@@ -59,7 +59,7 @@
                         <tr>
                             <td>{{ result.get('domain') }}</td>
                             <td>{{ result.get('tls_version') }}</td>
-                            <td>{{ result.get('cipher_suite') }}</td>
+                            <td><a href="https://ciphersuite.info/{{ result.get('cipher_suite') }}" target="_blank">{{ result.get('cipher_suite') }}</a></td>
                             <td>{{ result.get('error') }}</td>
                             <td>{{ result.get('hsts') }}</td>
                             <td>{{ result.get('ocsp_stapling') }}</td>
