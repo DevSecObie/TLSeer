@@ -18,7 +18,7 @@ from models import db, DomainCheckResult
 
 load_dotenv()
 
-connection_string = os.environ.get('SQLALCHEMY_DATABASE_URI')
+connection_string = os.environ.get('JAWSDB_URL')
 
 app = Flask(__name__)
 secret_key = secrets.token_hex(16)
